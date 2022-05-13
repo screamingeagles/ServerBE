@@ -1,0 +1,158 @@
+{
+    "table":[
+        {
+            "STAFF_ID":8178,
+            "FIRST_NAME":"mulk",
+            "LAST_NAME":"qoum",
+            "DESIG_ID":317,
+            "DESIGNATION":"Ship Surveyor (Category A)",
+            "EMIRATES_ID":"42101-683-0",
+            "EID_EXPIRY":"09-Apr-2022",
+            "FILE_NAME":"IRST.jpg",
+            "CREATED_BY":"topmost",
+            "CREATION_DATE":"05-Apr-2022"
+        },
+        {
+            "STAFF_ID":8177,
+            "FIRST_NAME":"two",
+            "LAST_NAME":"last",
+            "DESIG_ID":107,
+            "DESIGNATION":"Hazmat  Operator",
+            "EMIRATES_ID":"4201-683-1",
+            "EID_EXPIRY":"27-Apr-2022",
+            "FILE_NAME":"predator.jpg",
+            "CREATED_BY":"topmost",
+            "CREATION_DATE":"05-Apr-2022"
+        },
+        {
+            "STAFF_ID":8176,
+            "FIRST_NAME":"three",
+            "LAST_NAME":"last",
+            "DESIG_ID":314,
+            "DESIGNATION":"Manager",
+            "EMIRATES_ID":"4201-683-1",
+            "EID_EXPIRY":"27-Mar-2023",
+            "FILE_NAME":"predator.jpg",
+            "CREATED_BY":"topmost",
+            "CREATION_DATE":"28-Mar-2022"
+        },
+        {
+            "STAFF_ID":8175,
+            "FIRST_NAME":"four",
+            "LAST_NAME":"last",
+            "DESIG_ID":321,
+            "DESIGNATION":"Supervisor - Performing Authority",
+            "EMIRATES_ID":"4201-683-1",
+            "EID_EXPIRY":"27-Mar-2023",
+            "FILE_NAME":"predator.jpg",
+            "CREATED_BY":"topmost",
+            "CREATION_DATE":"28-Mar-2022"
+        },
+        {
+            "STAFF_ID":8174,
+            "FIRST_NAME":"Ajoe",
+            "LAST_NAME":"Alex",
+            "DESIG_ID":321,
+            "DESIGNATION":"Supervisor - Performing Authority",
+            "EMIRATES_ID":null,
+            "EID_EXPIRY":"01-Jan-1970",
+            "FILE_NAME":"cld22",
+            "CREATED_BY":"cld22",
+            "CREATION_DATE":"24-Sep-2020"
+        },
+        {
+            "STAFF_ID":8173,
+            "FIRST_NAME":"XXX",
+            "LAST_NAME":"YYYY",
+            "DESIG_ID":321,
+            "DESIGNATION":"Supervisor - Performing Authority",
+            "EMIRATES_ID":"4201-683-1",
+            "EID_EXPIRY":"07-Mar-2023",
+            "FILE_NAME":"predator.jpg",
+            "CREATED_BY":"New",
+            "CREATION_DATE":"28-Mar-2022"
+        }
+    ],
+    "designation":[
+        {
+            "ID":105,
+            "NAME":"Diver"
+        },
+        {
+            "ID":104,
+            "NAME":"Diver Supervisor"
+        },
+        {
+            "ID":330,
+            "NAME":"Driver"
+        },
+        {
+            "ID":328,
+            "NAME":"Driver"
+        },
+        {
+            "ID":107,
+            "NAME":"Hazmat  Operator"
+        },
+        {
+            "ID":106,
+            "NAME":"Hazmat  Supervisor"
+        },
+        {
+            "ID":331,
+            "NAME":"Manager"
+        },
+        {
+            "ID":314,
+            "NAME":"Manager"
+        },
+        {
+            "ID":322,
+            "NAME":"Manager"
+        },
+        {
+            "ID":327,
+            "NAME":"Manager"
+        },
+        {
+            "ID":324,
+            "NAME":"Manager"
+        },
+        {
+            "ID":329,
+            "NAME":"Manager"
+        },
+        {
+            "ID":319,
+            "NAME":"Manager"
+        },
+        {
+            "ID":316,
+            "NAME":"Manager"
+        },
+        {
+            "ID":315,
+            "NAME":"Ship Surveyor (Category A)"
+        },
+        {
+            "ID":317,
+            "NAME":"Ship Surveyor (Category A)"
+        },
+        {
+            "ID":318,
+            "NAME":"Ship Surveyor (Category B)"
+        },
+        {
+            "ID":320,
+            "NAME":"Supervisor - Issuing Authority (DMC Only)"
+        },
+        {
+            "ID":321,
+            "NAME":"Supervisor - Performing Authority"
+        },
+        {
+            "ID":323,
+            "NAME":"Supervisor - Performing Authority"
+        }
+    ]
+}
