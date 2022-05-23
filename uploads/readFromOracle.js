@@ -19,7 +19,7 @@ export default {
             connection = await this.getNewConnection();
             console.log('connected to database');
 
-            let sql = `SELECT DESIGNATION_ID, DESIGNATION FROM T_DESIGNATION ORDER BY DESIGNATION`;
+            let sql = `SELECT DESIGNATION_ID, DESIGNATION FROM DESIGNATION ORDER BY DESIGNATION`;
 
             let binds = {};
 
@@ -61,7 +61,7 @@ export default {
         var connection = null;
         try {
             connection = await this.getNewConnection();
-            let sql = `SELECT MAX (STAFF_ID) + 1 AS MAX_STAFF FROM T_STAFF`;
+            let sql = `SELECT MAX (STAFF_ID) + 1 AS MAX_STAFF FROM STAFF`;
 
             let binds = {};
 
@@ -100,7 +100,7 @@ export default {
 
             let sql = `SELECT S.STAFF_ID, S.FIRST_NAME, S.LAST_NAME, S.DESIGNATION_ID, 
                     D.DESIGNATION, S.EMIRATES_ID, S.EID_EXPIRY, S.MODIFIED_BY AS FILE_NAME, S.CREATED_BY, S.CREATION_DATE
-                        FROM T_STAFF S INNER JOIN T_DESIGNATION D ON  S.DESIGNATION_ID = D.DESIGNATION_ID        
+                        FROM STAFF S INNER JOIN DESIGNATION D ON  S.DESIGNATION_ID = D.DESIGNATION_ID        
                             ORDER By S.STAFF_ID DESC FETCH FIRST 5 ROWS ONLY `;
 
             let binds = {};
@@ -153,7 +153,7 @@ export default {
         var connection = null;
         try {
             connection = await this.getNewConnection();
-            let sql = `SELECT STAFF_ID, COMPANY_ID, FIRST_NAME, LAST_NAME, DESIGNATION_ID, CREATED_BY, MODIFIED_BY, EMIRATES_ID, EID_EXPIRY FROM T_STAFF WHERE STAFF_ID=${param}`;
+            let sql = `SELECT STAFF_ID, COMPANY_ID, FIRST_NAME, LAST_NAME, DESIGNATION_ID, CREATED_BY, MODIFIED_BY, EMIRATES_ID, EID_EXPIRY FROM STAFF WHERE STAFF_ID=${param}`;
 
             let binds = {};
 
@@ -188,7 +188,7 @@ export default {
         var connection = null;
         try {
             connection = await this.getNewConnection();
-            let sql = `INSERT INTO T_STAFF (STAFF_ID, COMPANY_ID, FIRST_NAME, LAST_NAME, DESIGNATION_ID, CREATED_BY, MODIFIED_BY, EMIRATES_ID, EID_EXPIRY) 
+            let sql = `INSERT INTO STAFF (STAFF_ID, COMPANY_ID, FIRST_NAME, LAST_NAME, DESIGNATION_ID, CREATED_BY, MODIFIED_BY, EMIRATES_ID, EID_EXPIRY) 
                         VALUES(${param.StaffId}, 113,'${param.FirstName}','${param.LastName}',${param.DesignationId},'topmost','${param.FileName}','${param.EmiratesId}','${param.EIDExpiry}')`;
             console.log(sql);
             let binds = {};
@@ -223,7 +223,7 @@ export default {
         var connection = null;
         try {
             connection = await this.getNewConnection();
-            let sql = `UPDATE T_STAFF SET FIRST_NAME='${param.FirstName}',
+            let sql = `UPDATE STAFF SET FIRST_NAME='${param.FirstName}',
                         LAST_NAME='${param.LastName}', DESIGNATION_ID=${param.DesignationId}, 
                         MODIFIED_BY='${param.FileName}', EMIRATES_ID='${param.EmiratesId}',
                         EID_EXPIRY='${param.EIDExpiry}' WHERE STAFF_ID=${param.StaffId}`;
