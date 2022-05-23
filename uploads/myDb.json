@@ -75,84 +75,24 @@
     ],
     "designation":[
         {
-            "ID":105,
+            "ID":101,
             "NAME":"Diver"
         },
         {
+            "ID":102,
+            "NAME":"Manager"
+        },
+        {
+            "ID":103,
+            "NAME":"Surveyor"
+        },
+        {
             "ID":104,
-            "NAME":"Diver Supervisor"
-        },
+            "NAME":"Supervisor"
+        },        
         {
-            "ID":330,
-            "NAME":"Driver"
-        },
-        {
-            "ID":328,
-            "NAME":"Driver"
-        },
-        {
-            "ID":107,
-            "NAME":"Hazmat  Operator"
-        },
-        {
-            "ID":106,
-            "NAME":"Hazmat  Supervisor"
-        },
-        {
-            "ID":331,
-            "NAME":"Manager"
-        },
-        {
-            "ID":314,
-            "NAME":"Manager"
-        },
-        {
-            "ID":322,
-            "NAME":"Manager"
-        },
-        {
-            "ID":327,
-            "NAME":"Manager"
-        },
-        {
-            "ID":324,
-            "NAME":"Manager"
-        },
-        {
-            "ID":329,
-            "NAME":"Manager"
-        },
-        {
-            "ID":319,
-            "NAME":"Manager"
-        },
-        {
-            "ID":316,
-            "NAME":"Manager"
-        },
-        {
-            "ID":315,
-            "NAME":"Ship Surveyor (Category A)"
-        },
-        {
-            "ID":317,
-            "NAME":"Ship Surveyor (Category A)"
-        },
-        {
-            "ID":318,
-            "NAME":"Ship Surveyor (Category B)"
-        },
-        {
-            "ID":320,
-            "NAME":"Supervisor - Issuing Authority (DMC Only)"
-        },
-        {
-            "ID":321,
-            "NAME":"Supervisor - Performing Authority"
-        },
-        {
-            "ID":323,
-            "NAME":"Supervisor - Performing Authority"
-        }
+            "ID":105,
+            "NAME":"Operator"
+        }     
     ]
 }
